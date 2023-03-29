@@ -42,8 +42,8 @@ add_bg_from_url()
 
 def email(s_id):
     # set up the email message
-    sender_email = 'nakshathra21110435@SNUCHENNAI.EDU.IN'
-    receiver_email = 'abhijith21110219@SNUCHENNAI.EDU.IN' #replace it with telegrams mail address
+    sender_email = 'sender_email'
+    receiver_email = 'receiver_email' #replace it with telegrams mail address
     password = 'PASSWORD'
     subject = "Subject: Request to telegram"
     message = "Message to telegram urgent! please let us get the IP address of "+str(s_id)
@@ -78,7 +78,7 @@ d = st.number_input("Enter the number of days of messages to scrape: ",value=0)
 df = pd.DataFrame()
 if ((s!="Enter group username") and (d!=0)):
     #Scraping messages from chat
-    session = '1BVtsOGQBu66fIFk8W4I3YMdncnh1W9lh3VG78-irlP-qV_VGatvfxBGKgKQgga7BZMiBCNbeoXijH0OMIzkt5LfDVnODO9WXfBCoVjm8O4xmxyc9WbWoGMr6CAqP8JNH8NVVWh6aKBPBeORG5ZHehlv4IHSRECkA1bYi7iJZm_qqR9vsuIWWwK4tGvKwtpDDs3hw4DIrsv_sOlHi0WKLue0XxzFf3ezOcayCvOdFXMZLukwkC1CwfLZUP2MlPeV9yCVNWbTQ2whQLrdErkpa9nskOVmUbtArGKJLLt2eCgbtzb-8yfRJPReAy12L_l538_YTDKM2DQWIFKlCO6mrrNo-fBTUfVc='
+    session = 'Session'
     client = TelegramClient(StringSession(session),api_id,api_hash)
     for chat in chats: 
         with TelegramClient(StringSession(session),api_id,api_hash) as client:
