@@ -30,7 +30,7 @@ def add_bg_from_url():
 
 add_bg_from_url() 
 
-openai.api_key = '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'
+openai.api_key = 'openai_api_key'
 st.markdown("<h1 style='text-align: center; color: white;'>VoIP Call Recordings to Text</h1>", unsafe_allow_html=True)
 audio_file = st.file_uploader("Upload an audio file", type=["mp3"])
 # Check if an audio file has been uploaded
