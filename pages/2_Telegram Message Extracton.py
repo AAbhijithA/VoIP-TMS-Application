@@ -44,7 +44,7 @@ def email(s_id):
     # set up the email message
     sender_email = 'nakshathra21110435@SNUCHENNAI.EDU.IN'
     receiver_email = 'abhijith21110219@SNUCHENNAI.EDU.IN' #replace it with telegrams mail address
-    password = 'NAna12032022'
+    password = 'PASSWORD'
     subject = "Subject: Request to telegram"
     message = "Message to telegram urgent! please let us get the IP address of "+str(s_id)
     msg = MIMEMultipart()
@@ -60,14 +60,14 @@ def email(s_id):
         text = msg.as_string()
         server.sendmail(sender_email, receiver_email, text)
 def link():
-    bot = telegram.Bot(token='5997338832:AAEYgvLtfH7SlmiJgiA_JttkyvWKmfYjaRI')
-    sender_id = '1247689284'  # replace with the actual sender ID
-    message = 'Hello, world!'  # replace with your message
+    bot = telegram.Bot(token='BOT_TOKEN')
+    sender_id = 'SENDER_ID'  # replace with the actual sender ID
+    message = 'Message'  # replace with your message
     bot.send_message(chat_id=sender_id, text=message)
 loop = asyncio.new_event_loop()
 asyncio.set_event_loop(loop)
-api_id = 27200016
-api_hash = '8015e923aa186fc658122939fbf318de'
+api_id = api_id
+api_hash = 'API_HASH'
 chats = []
 s = st.text_input("Enter Group/Chat Usernames with spacing: @",value="Enter usernames")
 cht = str(s)
