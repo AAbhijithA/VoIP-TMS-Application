@@ -38,9 +38,9 @@ def add_bg_from_url():
 
 add_bg_from_url() 
 
-api_id = 27200016
-api_hash = '8015e923aa186fc658122939fbf318de'
-session = '1BVtsOGQBu66fIFk8W4I3YMdncnh1W9lh3VG78-irlP-qV_VGatvfxBGKgKQgga7BZMiBCNbeoXijH0OMIzkt5LfDVnODO9WXfBCoVjm8O4xmxyc9WbWoGMr6CAqP8JNH8NVVWh6aKBPBeORG5ZHehlv4IHSRECkA1bYi7iJZm_qqR9vsuIWWwK4tGvKwtpDDs3hw4DIrsv_sOlHi0WKLue0XxzFf3ezOcayCvOdFXMZLukwkC1CwfLZUP2MlPeV9yCVNWbTQ2whQLrdErkpa9nskOVmUbtArGKJLLt2eCgbtzb-8yfRJPReAy12L_l538_YTDKM2DQWIFKlCO6mrrNo-fBTUfVc='
+api_id = api_id
+api_hash = 'API_HASH'
+session = 'session'
 client = TelegramClient(StringSession(session), api_id, api_hash)
 cht = st.text_input("Enter the chat/group username: @",value="Enter")
 chats = []
