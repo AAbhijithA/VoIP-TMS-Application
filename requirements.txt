@@ -1,3 +1,4 @@
+python==3.10.10
 textblob==0.16.0
 streamlit==1.20.0
 telethon==1.27.0
