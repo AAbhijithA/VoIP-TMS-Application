@@ -5,3 +5,4 @@ telethon==1.27.0
 pandas==1.5.3
 asyncio==3.4.3
 telegram==
+email==4.0.2
