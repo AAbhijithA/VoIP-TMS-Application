@@ -68,21 +68,4 @@ if ((cht != "Enter") and (d != 0)):
                             #with open(os.path.join(path, f"{document_id}.mp3"), "wb") as f:
                                 #f.write(audio.encode('utf-8'))
                             with open(f"{document_id}.mp3", "wb") as f:
-                                f.write(audio.encode('utf-8'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                                f.write(audio.encode('utf-8'))
