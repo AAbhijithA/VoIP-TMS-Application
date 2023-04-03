@@ -28,7 +28,7 @@ Get your OpenAI Whisper API key from the OpenAI site by creating an account and 
 Make sure to input the mail via which you send emails of flagged individuals sendier id's and also the path functionality for media extraction of the path where you intend to save the media.
 - - - -
 ### Setup for saving sessions
-Since you wouldn't want to deal with logging into telegram and since its an asynchronous functionality and more tedious to integrate inot the application we can save a session string for automatic log in.
+Since you wouldn't want to deal with logging into telegram and since its an asynchronous functionality and more tedious to integrate into the application we can save a session string for automatic log in.
 
 You can check telethons official documentation on this here: 
 [Telethon Session Documentation](https://docs.telethon.dev/en/stable/concepts/sessions.html)
