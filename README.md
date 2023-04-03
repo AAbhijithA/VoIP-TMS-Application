@@ -10,11 +10,11 @@ of the telegram application. The application has further functionalities in orde
 * **VoIP Call Recordings to Text:** Converts mp3 recordings to text via OpenAI's Whisper API and do sentiment analysis on it and lets us understand if the call was malicious or not and we can get its subjectivity and polarity by NLP using textblob.
 - - - -
 ### Setting up API's and Libraries
-First we need to install all the requirements for running the project so we can either save these libraries in a virtual environment by downloading it with the command
+First we need to install all the requirements for running the project so we can either save these libraries in a virtual environment by downloading it with the command:
 ```
 > pip install -r /path/to/requirements.txt
 ```
-Or you can manually install each library using pip one by one via
+Or you can manually install each library using pip one by one via:
 ```
 > pip install (library mentioned)
 ```
