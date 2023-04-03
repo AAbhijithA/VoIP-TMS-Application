@@ -18,7 +18,7 @@ Or you can manually install each library using pip one by one via
 ```
 > pip install (library mentioned)
 ```
-Make sure to make a telegram account before continuing to use the application and set up your Telegram API from the link below:
+Make sure to make a telegram account before continuing to use the application and set up your Telegram API from the link below and replace all the api key and hash variables with the one assigned to you after creating your own telegram api: 
 
 [Telegram API Site](https://core.telegram.org/)
 
@@ -53,4 +53,4 @@ now just run the following snippet to run the application
 ```
 > streamlit run About.py
 ```
-You will be able to access all the functionalities of the application built enjoy the application 😄
+You will be able to access all the functionalities of the application built after following all the steps given above. 
