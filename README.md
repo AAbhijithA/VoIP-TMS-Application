@@ -25,7 +25,7 @@ Make sure to make a telegram account before continuing to use the application an
 Get your OpenAI Whisper API key from the OpenAI site by creating an account and signing up over here in the link given: 
 [OpenAI](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
 
-Make sure to input the mail via which you send emails of flagged individuals sendier id's and also the path functionality for media extraction of the path where you intend to save the media.
+Make sure to input the mail via which you send emails of flagged individuals sendier id's and also the path functionality for media extraction of the path where you intend to save the media *(Commented part of code in Telegram Media Extraction)*
 - - - -
 ### Setup for saving sessions
 Since you wouldn't want to deal with logging into telegram and since its an asynchronous functionality and more tedious to integrate into the application we can save a session string for automatic log in.
@@ -48,7 +48,7 @@ copy the output in the terminal after logging into your telegram account which y
 ```
 session = '1aaNk8EX-YRfwoRsebUkugFvht6DUPi_Q25UOCzOAqzc...'
 ```
-now just run the following snippet to run the application
+now just run the following snippet to run the application after going inot the project directory
 ```
 > streamlit run About.py
 ```
