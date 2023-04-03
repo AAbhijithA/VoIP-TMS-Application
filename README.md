@@ -9,7 +9,7 @@ of the telegram application. The application has further functionalities in orde
 * **IP Geolocation Tracking:** Returns us the geolocation via IP-API to track any individuals location based on their IP-Address and returns more information to locate the cell tower location (latititude and longitude), ISP, etc. for tracking more details of flagged users.
 * **VoIP Call Recordings to Text:** Converts mp3 recordings to text via OpenAI's Whisper API and do sentiment analysis on it and lets us understand if the call was malicious or not and we can get its subjectivity and polarity by NLP using textblob.
 - - - -
-### Setup
+### Setting up API's and Libraries
 First we need to install all the requirements for running the project so we can either save these libraries in a virtual environment by downloading it with the command
 ```
 > pip install -r /path/to/requirements.txt
@@ -26,6 +26,7 @@ Get your OpenAI Whisper API key from the OpenAI site by creating an account and 
 
 [OpenAI](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
 
+Make sure to input the mail via which you send emails of flagged individuals sendier id's and also the path functionality for media extraction of the path where you intend to save the media.
 - - - -
 ### Setup for saving sessions
 Since you wouldn't want to deal with logging into telegram and since its an asynchronous functionality and more tedious to integrate inot the application we can save a session string for automatic log in.
@@ -52,4 +53,4 @@ now just run the following snippet to run the application
 ```
 > streamlit run About.py
 ```
-You will be able to access all the functionalities of the application built
+You will be able to access all the functionalities of the application built enjoy the application 😄
