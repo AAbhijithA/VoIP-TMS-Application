@@ -63,7 +63,7 @@ You will be able to access all the functionalities of the application built afte
 * IP-API: *For geolocation*
 * OpenAI Whisper: *For Speech to text*
 * Email: *For sending emails via application*
-* Asyncio: *Dealing with asynchronous thread calls with interfacing*
+* Asyncio: *Dealing with asynchronous thread calls while using streamlit*
 - - - -
 ### Authors
 * [Abhijith Ajith](https://github.com/AAbhijithA)
