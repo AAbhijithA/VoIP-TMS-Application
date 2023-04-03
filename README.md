@@ -18,12 +18,11 @@ Or you can manually install each library using pip one by one via:
 ```
 > pip install (library mentioned)
 ```
-Make sure to make a telegram account before continuing to use the application and set up your Telegram API from the link below and replace all the api key and hash variables with the one assigned to you after creating your own telegram api: 
-
+Make sure to make a telegram account before continuing to use the application and set up your Telegram API from the link 
 [Telegram API Site](https://core.telegram.org/)
+ and replace all the api key and hash variables with the one assigned to you after creating your own Telegram API.
 
-Get your OpenAI Whisper API key from the OpenAI site by creating an account and signing up over here in the link below:
-
+Get your OpenAI Whisper API key from the OpenAI site by creating an account and signing up over here in the link given: 
 [OpenAI](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
 
 Make sure to input the mail via which you send emails of flagged individuals sendier id's and also the path functionality for media extraction of the path where you intend to save the media.
