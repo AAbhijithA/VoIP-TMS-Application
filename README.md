@@ -44,11 +44,11 @@ from telethon.sessions import StringSession
 with TelegramClient(StringSession(), api_id, api_hash) as client:
     print(client.session.save())
 ```
-copy the output in the terminal after logging into your telegram account which you created with your api key and hash and paste the following string outputted from the code above to every **session** variable in our code to automatically login to your telegram account.
+copy the output in the terminal after logging into your telegram account which you created with your api key and hash and paste the following string outputted from the code above to every **session** variable in our code to automatically login to your telegram account:
 ```
 session = '1aaNk8EX-YRfwoRsebUkugFvht6DUPi_Q25UOCzOAqzc...'
 ```
-now just run the following snippet to run the application after going inot the project directory
+now just run the following snippet to run the application after going into the project directory:
 ```
 > streamlit run About.py
 ```
