@@ -66,10 +66,10 @@ You will be able to access all the functionalities of the application built afte
 * Asyncio: *Dealing with asynchronous thread calls with interfacing*
 - - - -
 ### Authors
-* [Abhijith](https://github.com/AAbhijithA)
-* [Nakshathra](https://github.com/NakshathraP)
-* [Tejaswini](https://github.com/tejucodes10)
-* [Adithya](https://github.com/adithya-vedhamani)
+* [Abhijith Ajith](https://github.com/AAbhijithA)
+* [Nakshathra P](https://github.com/NakshathraP)
+* [Tejaswini Uma Sudhir](https://github.com/tejucodes10)
+* [Adithya Vedhamani](https://github.com/adithya-vedhamani)
 - - - -
 ### License
 The following project and its codes is licensed under MIT License
