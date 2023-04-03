@@ -69,8 +69,5 @@ You will be able to access all the functionalities of the application built afte
 * [Abhijith Ajith](https://github.com/AAbhijithA)
 * [Nakshathra P](https://github.com/NakshathraP)
 * [Tejaswini Uma Sudhir](https://github.com/tejucodes10)
-* [Adithya Vedhamani](https://github.com/adithya-vedhamani)
-- - - -
-### License
-The following project and its codes is licensed under MIT License
+* [Adithya Vedhamani](https://github.com/adithya-vedhamani) 
 
