@@ -12,7 +12,7 @@ of the telegram application. The application has further functionalities in orde
 ### Setting up API's and Libraries
 First we need to install all the requirements for running the project so we can either save these libraries in a virtual environment by downloading it with the command:
 ```
-> pip install -r /path/to/requirements.txt
+> pip install -r requirements.txt
 ```
 Or you can manually install each library using pip one by one via:
 ```
