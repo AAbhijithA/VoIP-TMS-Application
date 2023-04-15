@@ -1,6 +1,6 @@
 # VoIP/TMS Application
 This is an application created by team **TANA** for the **TN Police Hackathon 2023** for the problem statement **VoIP/Telegram Message Scraping**.
-The application uses Telegrams API in order to fetch and try phisihing the flagged individuals in groups or chats of the logged in user 
+The application uses Telegrams API in order to fetch and try phishing the flagged individuals in groups or chats of the logged in user 
 of the telegram application. The application has further functionalities in order to analyze the extracted data.
 - - - -
 ### Functionalities
