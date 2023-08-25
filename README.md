@@ -55,15 +55,15 @@ now just run the following snippet to run the application after going into the p
 You will be able to access all the functionalities of the application built after following all the steps given above. 
 - - - -
 ### Built with
-* Python: *Programming Language*
-* Streamlit: *Application Development*
-* TextBlob: *NLP for Sentiment and Subjectivity Analysis*
-* Pandas: *Data manipulation library*
-* Telethon: *For extraction of messages and media*
-* IP-API: *For geolocation*
-* OpenAI Whisper: *For Speech to text*
-* Email: *For sending emails via application*
-* Asyncio: *Dealing with asynchronous thread calls while using streamlit*
+* **Python:** Programming Language
+* **Streamlit:** Application Development
+* **TextBlob:** NLP for Sentiment and Subjectivity Analysis
+* **Pandas:** Data manipulation library
+* **Telethon:** For extraction of messages and media
+* **IP-API:** For geolocation
+* **OpenAI Whisper:** For Speech to text
+* **Email:** For sending emails via application
+* **Asyncio:** Dealing with asynchronous thread calls while using streamlit
 - - - -
 ### Authors
 * [Abhijith Ajith](https://github.com/AAbhijithA)
